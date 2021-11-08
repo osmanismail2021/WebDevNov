@@ -16,3 +16,24 @@ span.custom{
     background-color: darkslateblue;
     color: white;
 }
+.main{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.child{
+    background-color: darkslategrey;
+    padding: 4em;
+    margin: 1px;
+}
+#wrapper{
+    background-color: gold;
+}
+
+video {
+    width: 50%;
+    height: 300px;
+    object-fit: fill;
+}
