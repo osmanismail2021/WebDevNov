@@ -1,5 +1,34 @@
+html,body{
+    background-color: lightcoral;
+}
 div{
     display: flex;
     flex-direction: column;
-    box-sizing: 2pt;
+    box-sizing: 1pt;
+    align-items: center;
+    
+    
+    
+}
+
+input{
+    width: 175pt;
+    height: 20pt;
+    font-style: italic;
+    background-color: lightgoldenrodyellow;
+    color: indigo;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: mediumseagreen;
+    
+}
+label{
+    color: rgb(33, 31, 99);
+    font-weight: bold;
+    
+}
+button{
+    width: 175pt;
+    height: 20pt;
+    border-radius: ;
 }
