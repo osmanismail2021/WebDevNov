@@ -1,0 +1,11 @@
+ul{
+    list-style-type: none;
+}
+li{
+    display: inline;
+}
+li:hover{
+    color: seashell;
+    background-color: red;
+    padding: 1em;
+}
