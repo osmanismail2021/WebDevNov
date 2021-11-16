@@ -1,0 +1,44 @@
+@media screen and (max-width:600px) and (max-height:500px) {
+}
+    /* /* body{
+        background-color: orange;
+    }
+    h1{
+        color: orangered;
+    } */
+
+    @media screen and (max-width:320px){
+        h1,p{
+            color: red;
+        }
+    }
+    
+    @media screen and (min-width:375px){
+        h1,p{
+            color: rgb(60, 0, 255);
+        }
+    }
+
+    @media screen and (min-width:376px) and (max-width:425px) {
+        h1,p{
+            color:rgb(216, 206, 68);
+        }
+    }
+
+    @media screen and (min-width:426px) and (max-width:768px) {
+        h1,p{
+            color: rgb(68, 189, 236);
+        }
+    }
+
+    @media screen and (min-width:769px) and (max-width:1024px) {
+        h1,p{
+            color: rgb(241, 47, 216);
+        }
+    }
+
+    @media screen and (min-width:1025px) and (max-width:1440px) {
+        h1,p{
+            color: rgb(37, 219, 52);
+        }
+    }

@@ -10,11 +10,7 @@ body{
     /* 10px */
 
 }
-.btn{padding: 0.5em;
-    text-decoration: none;
-    color: white;
-    border-radius: 5px;
-}
+
 .btn:hover{padding: 0.5em;
     text-decoration: none;
     color: white;
@@ -32,4 +28,7 @@ body{
 .btn-orange{
     background-color: orange;
     color: black;
+}
+
+
 }
