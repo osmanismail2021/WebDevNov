@@ -1,8 +1,0 @@
-div {
-    display: flex;
-    flex-direction: column;
-}
-
-input::placeholder{
-    color:green
-}
