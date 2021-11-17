@@ -1,0 +1,45 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(53, 22, 22);
+}
+
+.container{
+    padding: 1em;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+/* .container > i{
+    font-size: 30pt;
+    color: yellowgreen;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+} */
+
+.bi-cart-check-fill{
+    font-size: 30pt;
+    color: seashell;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+.bi-bar-chart-line-fil{
+    font-size: 30pt;
+    color: skyblue;
+    text-shadow: tomato;
+}
+.bi-bag-check-fill{
+    font-size: 30pt;
+    color: yellowgreen;
+    text-shadow: thistle;
+}
+.bi-bell-fill{
+    font-size: 30pt;
+    color: red;
+
+}
+
+    
+    
+    

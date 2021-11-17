@@ -1,0 +1,115 @@
+html,body{
+    background-color:wheat;
+    color: black;
+}
+
+header {
+    text-align: center;
+  
+}
+
+header > .logo {
+    font-size: 50pt;
+    color: green;
+}
+h1{
+    color: brown;
+}
+
+nav{
+    text-align: center;
+    padding: 1cm;
+}
+
+main > section{
+    display: flex;
+    flex-wrap:nowrap ;
+    flex-direction: row;
+    
+}
+
+button:hover{
+    
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    opacity: 0.5;
+    border-radius: 5px
+        
+    }
+
+
+button{
+    width: 2.5cm;
+    height: 1cm;
+    color:seashell;
+    background-color: rosybrown;
+    border-radius: 5px;
+    position: relative;
+    right: -250px;
+}
+
+
+.bi-bank{
+    position: relative;
+    top: -300px;
+    right: -200px;
+    font-size: 30px ;
+    color: slateblue;
+}
+
+
+.btn{
+    margin: 1cm;
+    padding: 0.5em;
+    text-decoration: none;
+    color: white;
+    opacity: 0.5;
+    border-radius: 5px
+}
+
+.btn:hover{
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    opacity: 0.5;
+    border-radius: 5px
+    
+}
+
+.btn-red{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+}
+
+.btn-green{
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+}
+.btn-yellow{
+    background-color: yellow;
+    color: black;
+    border-radius: 5px;
+}
+.btn-blue{
+    background-color: blue;
+    color: white;
+    border-radius:5px ;
+}
+
+.volkswagen{
+    width: 250px;
+    height: 400px;
+    float: left;
+    margin: 5px;
+}
+
+i{
+    color: tomato;
+    font-size: 2em;
+}
+
+
+

@@ -1,0 +1,57 @@
+/* selector */
+
+*{
+    /* select everything */
+    background-color: darkslateblue;
+}
+
+body,html{
+    /* reset default spacing values */
+    padding: 0;
+    margin: 0;
+}
+
+.row{
+    border: 1px solid black;
+    padding: 1em;
+}
+
+#maincontainer{
+    background-color: greenyellow !important;
+    /* border: 1px solid red; */
+    /* border-color: red;
+    border-width: 1px;
+    border-style: dashed; */
+    border-bottom-color:red ;
+    border-bottom-width:1px ;
+    border-bottom-style: dashed;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+input{
+    background-color: black;
+    color: white;
+}
+
+input[name=username]{
+    /* select tagname by attribute name/value */
+    background-color: mediumseagreen;
+    color: black;
+}
+
+li{
+    color: red;
+    list-style-type: none;
+}
+
+li[name=item]{
+    color: green;
+    list-style-type: circle;
+}
+#maincontainer > .row > .col:nth-child(2){
+    background-color: maroon !important;
+    padding: 3px;
+    margin: 3px;
+
+}
