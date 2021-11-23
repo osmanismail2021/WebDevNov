@@ -1,0 +1,38 @@
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+     
+  }
+
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    
+  }
+
+.input-group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    
+  }
+
+
+
+
+  /* form{
+    padding-left:25px;
+    padding-right:25px;
+    padding-top:60px;
+    margin: 12px auto;
+    border: 2px solid black;
+    border-radius: 20px;
+    position:relative;
+    z-index:1;
+  } */
+
