@@ -1,0 +1,126 @@
+/* .container{
+    width: 100%;
+    margin: 1cm;
+} */
+
+#contain1{
+    margin-top: -20px;
+}
+#box-with-image {
+    border:5px solid red;
+    display: block;
+    background-image:url(../legend.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+  }
+  #box-with-image1 {
+    border:5px solid red;
+    display: block;
+    background-image:url(https://assets.mubicdn.net/images/notebook/post_images/19893/images-w1400.jpg?1449196747);
+    background-size:cover;
+    background-repeat:no-repeat;
+  }
+  #box-with-image2 {
+    border:5px solid red;
+    display: block;
+    background-image:url(http://cdn30.us1.fansshare.com/image/famousmovies/frozen-movie-poster-famous-movie-covers-833172849.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+  }
+  #box-with-image3 {
+    border:5px solid red;
+    display: block;
+    background-image:url(http://3.bp.blogspot.com/_f9JhZPJmX0Q/TUBzSwBMOdI/AAAAAAAAADA/wJ3Wu4CuRuM/s1600/gamer_gerard_way_poster.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+  }
+  #box-with-image4 {
+    border:5px solid red;
+    display: block;
+    background-image:url(https://assets.hongkiat.com/uploads/horror-movie-posters/silence_of_the_lambs_ver2.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+  }
+  #box-with-image5 {
+    border:5px solid red;
+    display: block;
+    background-image:url(https://www.discountdisplays.co.uk/our-blog/wp-content/uploads/thor-the-dark-world-crowded-691x1024.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+  }
+  #box-with-image6 {
+    border:5px solid red;
+    display: block;
+    background-image:url(https://vroegert.nl/wp-content/uploads/2017/03/fight-club-1.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+  }
+  #box-with-image7 {
+    border:5px solid red;
+    display: block;
+    background-image:url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/christmas-movies-disney-plus-a-christmas-carol-1575311779.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+  }
+  #box-with-image8 {
+    border:5px solid red;
+    display: block;
+    background-image:url(https://www.femalefirst.co.uk/image-library/port/1000/t/the-polar-express-christmas-poster.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+  }
+  #box-with-image9 {
+    border:5px solid red;
+    display: block;
+    background-image:url(https://movieposters2.com/images/750425-b.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+  }
+  #box-with-image10 {
+    border:5px solid red;
+    display: block;
+    background-image:url(https://edit.org/photos/img/blog/lfq-movie-poster-template-cover-maker-online-free-creator.jpg-840.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+  }
+  #box-with-image11 {
+    border:5px solid red;
+    display: block;
+    background-image:url(http://mohdcinema.herokuapp.com/images/1.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+  }
+  #box-with-image12 {
+    border:5px solid red;
+    display: block;
+    background-image:url(https://static.boredpanda.com/blog/wp-content/uploads/2020/10/Designer-reimagines-6-famous-childrens-board-games-as-horror-movies-5f83fb894a8a8__700.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+  }
+  #box-with-image13 {
+    border:5px solid red;
+    display: block;
+    background-image:url(https://mymodernmet.com/wp/wp-content/uploads/2018/01/honest-movie-posters-5.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+  }
+  
+  #button {
+    margin-top: 10px;
+    margin-bottom: 350px;
+    margin-left: 55px;
+    padding: 14px 46px;
+    border: 2px solid white;
+    border-radius: 30px
+    
+ }
+
+  #button1{
+      margin-top: -650px;
+      margin-left: 80px;
+      border: 2px solid white;
+      border-radius: 30px
+      
+      
+
+  }

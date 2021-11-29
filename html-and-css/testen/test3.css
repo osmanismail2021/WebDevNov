@@ -1,6 +1,10 @@
 html,body{
     background-color:wheat;
     color: black;
+    margin: 0%;
+    padding: 0%;
+    
+    
 }
 
 header {
@@ -28,6 +32,10 @@ main > section{
     
 }
 
+li{
+    list-style-type: none;
+}
+
 button:hover{
     
     padding: 10px;
@@ -52,8 +60,8 @@ button{
 
 .bi-bank{
     position: relative;
-    top: -300px;
-    right: -200px;
+    bottom: 300px;
+    left: 200px;
     font-size: 30px ;
     color: slateblue;
 }
@@ -109,7 +117,15 @@ button{
 i{
     color: tomato;
     font-size: 2em;
+    
+
+footer{
+    height: 40px;
+    background-color: rgb(216, 191, 138);
+    width: 100%;
 }
+
+
 
 
 
