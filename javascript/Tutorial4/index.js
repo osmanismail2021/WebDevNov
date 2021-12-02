@@ -17,5 +17,7 @@ if(person.age >=18 && person.livingPlace === 'Aalst' && person.isStudent === tru
 
 
 
-even = number % 2 == 0
+
+
+
 
