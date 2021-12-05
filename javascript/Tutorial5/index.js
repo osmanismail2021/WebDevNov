@@ -176,12 +176,12 @@ function getNettosalary(bruto,tax){
 //3-Karli
 
 
-var hava = '3'
-if(hava=='1'){
-console.log('Gunesli');
-}else if(hava=='2'){
-console.log('Yagmurlu');
-}else{console.log('Karli')}
+// var hava = '3'
+// if(hava=='1'){
+// console.log('Gunesli');
+// }else if(hava=='2'){
+// console.log('Yagmurlu');
+// }else{console.log('Karli')}
 
 
 
