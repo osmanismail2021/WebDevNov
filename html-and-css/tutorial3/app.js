@@ -1,0 +1,1 @@
+document.getElementById("buton1").classList.add("buton")

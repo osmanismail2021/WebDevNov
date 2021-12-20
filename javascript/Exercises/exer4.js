@@ -1,11 +1,17 @@
 let elGen = t => document.createElement(t)
 
 let contain = elGen("div")
+contain.className = "container"
+contain.innerHTML = "selam"
+
+
+
 let pictureSrc = elGen("img")
-let imageSource = elGen("https://picsum.photos/200")
-pictureSrc = imageSource
+pictureSrc.src = "https://picsum.photos/200"
+pictureSrc.className="img-responsive"
 
+contain.appendChild(pictureSrc)
+let bchild = document.getElementsByTagName("body")[0]
+bchild.appendChild(contain)
+//console.log(bchild)
 
-
-(contain).appendChild(pictureSrc)
-document.getElementsByClassName(".container").appenChild(pictureSrc)

@@ -1,12 +1,12 @@
-function funcName (){
+// function funcName (){
 
-}
+// }
 
-function funcName1(param1,param2,param3){
-    console.log(param1,param2,param3)
-}
+// function funcName1(param1,param2,param3){
+//     console.log(param1,param2,param3)
+// }
 
-funcName1('string',44,[1,2,3])
+// funcName1('string',44,[1,2,3])
 
 // function sumofnumbers(){
 //     var a = 5
@@ -20,8 +20,8 @@ funcName1('string',44,[1,2,3])
 //     console.log('after return keyword') //unused
 // }
 
-var number1=10
-var number2=20
+// var number1=10
+// var number2=20
 
 // function sumofnumbers(){
 //     return number1 + number2
@@ -104,13 +104,23 @@ var number2=20
 //function params : brutosalary , tax
     //math calc here
 
-function getNettosalary(bruto,tax){
+    //var sonuc;
+    var bruto = 2600;
+    var tax = 33;
+    //function getNettosalary(bruto, tax){
+
+    //return (bruto*tax)/100
+    
 
     let taxAmount = (bruto*tax)/100 //tax amount 500
-    //console.log(taxAmount)
-    return bruto -taxAmount // 2000-500
+    console.log(taxAmount)
+    //return bruto -taxAmount // 2000-500
+    
 }
+    //sonuc = getNettosalary(2600, 33);
+    //console.log(sonuc)
 
+//console.log(getNettoSalary(2600,33)
 // console.log(getNettoSalary(2000,25))
 // console.log(getNettoSalary(3000,25))
 
