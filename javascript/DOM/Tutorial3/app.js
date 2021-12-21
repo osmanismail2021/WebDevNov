@@ -51,3 +51,11 @@ setTimeout(()=>{
 },3000)
 
 cardColumns.appendChild(cardTemplate)
+
+//replaceChild
+
+setTimeout(()=>{
+    cardColumns.replaceChild(cardTemplate,cardColumns.childNodes[5])
+},3000)
+
+cardColumns.appendChild(cardTemplate)
