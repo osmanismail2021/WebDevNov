@@ -7,7 +7,7 @@ let books = []
 const tableBody = document.querySelector('tbody')
 
 function TestRemove(getEl){
-  //  e.preventDefault();
+    //e.preventDefault();
     console.log(getEl.parentElement.parentElement.parentElement)
     getEl.parentElement.parentElement.parentElement.remove()
 }
@@ -26,6 +26,7 @@ addBtn.addEventListener('click',function(e){
     console.log(obj);
     books.push(obj)
     console.log(books)
+    
     tableBody.innerHTML += `<tr>
     <th scope="row">1</th>
     <td>${obj.book_name}</td>
@@ -35,9 +36,9 @@ addBtn.addEventListener('click',function(e){
     <td>${obj.price} <i class="fa fa-eur" aria-hidden="true"></i></td>
     <td><a href="#"><i class="fa fa-trash lead" onClick="TestRemove(this)" aria-hidden="true"></i></a></td>
 </tr>`
-});
+})
 
-document.querySelector('.bg-danger').addEventListener('click',e=>{
+document.querySelector('.btn-dark').addEventListener('click',e=>{
     e.preventDefault();
     tableBody.innerHTML=""
 })
