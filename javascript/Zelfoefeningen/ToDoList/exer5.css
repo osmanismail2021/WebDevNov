@@ -57,26 +57,65 @@ body {
 
 .check {
   width: 70px;
+  /* height: 30px; */
   display: flex;
   justify-content: center;
   align-items: center;
+  /* border-radius: 50%;
+  border: 2px solid hsl(237, 14%, 26%); */
 }
 
 .check-mark {
   width: 30px;
   height: 30px;
-  border-radius: 50%;
-  border: 2px solid hsl(237, 14%, 26%);
   cursor: pointer;
   transition: all 0.25s;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 2px solid hsl(237, 14%, 26%);
+
+
 }
 
-.check-mark:hover, .check-mark.checked {
+/* .check-mark img {
+  visibility: hidden;
+} */
+
+.check-mark:hover {
   background: purple;
   
+}
+
+.check-mark.checked {
+  background: rgb(188, 221, 40);
+  
+}
+
+.binmark {
+  margin: 10px;
+
+
+}
+.binmarkcont.checked {
+  opacity: 0.6;
+}
+.binmarkcont.checked:hover {
+  background: red;
+  transition: all 0.8s ease-in-out;
+}
+.binmarkcont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 8%;
+  width: 8%;
+  opacity: 0;
+}
+
+.check-mark:hover, .check-mark.checked img {
+  visibility: visible;
 }
 
 .todo-text.checked {
@@ -139,6 +178,7 @@ body {
   border-radius: 6px;
   overflow: hidden;
   box-shadow: 0px 2px 30px 0px rgba(0,0,0,0.4);
+  margin-bottom: 30px;
 }
 
 .todo-items-info {

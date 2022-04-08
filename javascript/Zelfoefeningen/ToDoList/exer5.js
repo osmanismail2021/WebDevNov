@@ -28,18 +28,23 @@ function generateItems(items){
 
     let itemsHTML = "";
     items.forEach((item)=>{
-        itemsHTML += `
-        <div class="todo-item">
-                    <div class="check">
-                        <div data-id="${item.id} class="check-mark ${item.status == "completed" ? "checked": ""}">
-                            <img src="./assets/icon-check.svg" alt="">
-                        </div>
-                    </div>
-                    <div class="todo-text ${item.status == "completed" ? "checked": ""}"">
-                        ${item.text}
-                    </div>
-                </div>
+        itemsHTML += `<div class="todo-item">
+        <div class="check">
+            <div data-id="${item.id}" class="check-mark ${item.status == "completed" ? "checked": "nothing"}">
+           <img src="./assets/icon-check.svg" alt="">
+
+            </div>
+        </div>
+        <div class="todo-text ${item.status == "completed" ? "checked": "nothing"}">
+            ${item.text}
+        </div>
+    </div>
+
+        <div  class="binmarkcont ${item.status == "completed" ? "checked" : "nothing"}"  data-id="${item.id}">
+        <img class="binmark" src="./assets/icon-bin.svg" alt="icon-bin.svg"></div>
+    </div>
              `
+
     })
 
     document.querySelector(".todo-items").innerHTML = itemsHTML;
@@ -48,14 +53,25 @@ function generateItems(items){
 
 function createEventListeners(){
     let todoCheckMarks = document.querySelectorAll(".todo-item .check-mark");
+    let bins = document.querySelectorAll(".binmarkcont");
     todoCheckMarks.forEach((checkMark)=>{
         checkMark.addEventListener("click", function(){
             markCompleted(checkMark.dataset.id);
-        })
+        });
+    });
+    bins.forEach(bin => {
+        bin.addEventListener("click", function () {
+          deleteOne(bin.dataset.id);
+        });
+      });
+    }
 
-    })
-}
-
+    function deleteOne(id) {
+        let item = db.collection("todo-items").doc(id);
+        item.delete();
+        // alert('deleted'+ JSON.stringify(db.collection("todo-items").doc(id)))
+        alert(item + id);
+      }
 function markCompleted(id){
     let item = db.collection("todo-items").doc(id)
     item.get().then(function(doc){
